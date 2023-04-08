@@ -71,12 +71,6 @@
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
 
-        <SwitchPreference
-            android:key="pulse_on_new_tracks"
-            android:title="@string/pulse_on_new_tracks_title"
-            android:summary="@string/pulse_on_new_tracks_summary"
-            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
